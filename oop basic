@@ -1,0 +1,40 @@
+using System;
+
+namespace test
+{
+    class MainClass
+    {
+
+        public class Car
+        {
+            string Type;
+            int Model;
+            double Price;
+            double MilesDrive;
+            string Owners;
+
+            double GetPrice()
+            {
+                double NewPrice = Price - (MilesDrive * 100);
+                return NewPrice;
+            }
+            string GetOwner()
+            {
+                return Owners;
+            }
+
+            public static void Main(string[] args)
+            {
+
+                Car car2 = new Car();
+                {
+                    car2.Owners = "Abdulwahab";
+
+                }
+
+            }
+
+        }
+
+    }
+}
