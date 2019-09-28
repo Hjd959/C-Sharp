@@ -1,0 +1,27 @@
+using System;
+
+namespace test
+{
+    class MainClass
+    {
+
+        public static void Main(string[] args)
+        {
+
+
+
+            // increment
+            int i = 5;
+            i = i + 1;  // like i++ and ++i 
+            
+            
+            
+            
+            // Decrement
+             int x = 5;
+            x = x - 1;  // like x-- and --x 
+
+        }
+
+    }
+}
