@@ -1,0 +1,35 @@
+using System;
+
+namespace test
+{
+    class MainClass
+    {
+
+        public static void Main(string[] args)
+        {
+
+
+            Console.WriteLine("Welcome To While");
+
+
+            int i = 0;
+
+            while (i < 5)
+            {
+                Console.WriteLine("i =" + i);
+
+                i++;
+
+            }
+
+
+          
+
+
+
+
+
+        }
+
+    }
+}
