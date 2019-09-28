@@ -1,3 +1,9 @@
+
+
+//يطبع لك الخطاء والبرنامج قيد التشغيل
+    
+
+
 using System;
 
 namespace test
@@ -10,19 +16,27 @@ namespace test
         {
             string Message = "before";
 
-//يطبع لك الخطاء والبرنامج قيد التشغيل
+
             try
             {
                 Console.Write("enter number: ");
                 int x = Convert.ToInt32(Console.ReadLine());
                 Console.Write("Thans you enerded" + x);
 
+                Message = "try";
+
+
             }
             catch (Exception ex)
             {
-                Console.Write("\nMessage" + ex);
+                Console.Write("\nError" + ex);
+
+                Message = "catch";
             }
+
+            Console.Write("\nMessage " + Message);
         }
 
     }
 }
+
