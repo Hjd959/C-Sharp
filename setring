@@ -1,0 +1,26 @@
+using System;
+
+namespace test
+{
+    class MainClass
+    {
+
+        public static void Main(string[] args)
+        {
+            string first = "i love string";
+            string second = "i love programing";
+
+            string thierd = first + second;
+
+            
+
+            // n الان اذا تبي تطبع جزء من النص
+
+            thierd = thierd.Substring(0, 7);
+
+            Console.WriteLine(thierd);
+
+        }
+
+    }
+}
