@@ -1,0 +1,28 @@
+using System;
+
+namespace test
+{
+    class MainClass
+    {
+
+
+        public static void Main(string[] args)
+        {
+            string Message = "before";
+
+//يطبع لك الخطاء والبرنامج قيد التشغيل
+            try
+            {
+                Console.Write("enter number: ");
+                int x = Convert.ToInt32(Console.ReadLine());
+                Console.Write("Thans you enerded" + x);
+
+            }
+            catch (Exception ex)
+            {
+                Console.Write("\nMessage" + ex);
+            }
+        }
+
+    }
+}
