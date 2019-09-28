@@ -1,0 +1,63 @@
+using System;
+
+namespace test
+{
+    class MainClass
+    {
+
+        public static void Main(string[] args)
+        {
+
+
+            Console.WriteLine("Welcome To Loop");
+
+           
+            // odd number
+            for (int i = 1; i <100; i = i+2)
+            {
+                Console.WriteLine(i);
+            }
+
+
+
+            // even number
+            for (int y = 1; y < 100; y = y * 2 / 1)
+            {
+                Console.WriteLine(y);
+            }
+
+
+
+
+
+
+
+
+            // odd and even number 
+
+
+
+            Console.WriteLine("Write any number");
+            int x;
+
+            x =Convert.ToInt32( Console.ReadLine());
+
+            if (x % 2 == 0)
+            {
+                Console.WriteLine("even number");
+            }
+
+            else
+            {
+                Console.WriteLine("odd number");
+            }
+
+
+
+
+
+
+        }
+
+    }
+}
