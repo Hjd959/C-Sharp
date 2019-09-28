@@ -1,0 +1,56 @@
+using System;
+
+namespace test
+{
+    class MainClass
+    {
+
+        public static void Main(string[] args)
+        {
+
+            int id;
+            Console.WriteLine("Break and Continue");
+
+            for (int i = 0; i <3; i++)
+            {
+
+                Console.WriteLine("Enter your id : ");
+
+                id = Convert.ToInt32(Console.ReadLine());
+
+                if (id.Equals(1234))
+                {
+                    Console.WriteLine("good ");
+                    break;
+
+                }else
+                {
+                    Console.WriteLine("try agin ");
+                }
+
+
+
+            }
+
+         
+
+            
+
+           
+
+
+
+
+    
+
+
+          
+
+
+
+
+
+        }
+
+    }
+}
