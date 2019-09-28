@@ -1,0 +1,32 @@
+using System;
+
+namespace test
+{
+    class MainClass
+    {
+
+        // n اول شي القيمه الذي تعيدها
+        //  n اذا كانت لا تعيد قيمه void
+        // n ثم اسم الفنكشن
+        // n ثم البارميتر الذي تستخدمه
+
+
+
+
+
+        public static int sum(int x , int y)
+        {
+            return (x + y+3);
+        }
+
+
+        public static void Main(string[] args)
+        {
+            
+
+            
+            Console.Write(sum(10,16));
+        }
+
+    }
+}
