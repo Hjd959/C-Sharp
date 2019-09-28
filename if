@@ -1,0 +1,69 @@
+using System;
+
+namespace test
+{
+    class MainClass
+    {
+
+        public static void Main(string[] args)
+        {
+
+
+            Console.WriteLine("Hello And Welcome");
+            Console.WriteLine("Plass Enter your name");
+            string name;
+            name = Console.ReadLine();
+
+            if (name == "Abdulwahab")
+            {
+                Console.WriteLine("Welcome" + " " + name);
+
+            }
+
+            Console.WriteLine("Plass Enter your Second name");
+            string name2;
+            name2 = Console.ReadLine();
+
+            if (name2 == "Abdullah")
+            {
+                Console.WriteLine("Welcome" + " " + name +" " + name2);
+
+            }
+            else
+            {
+                Console.WriteLine("Sorry");
+            }
+
+            Console.WriteLine("Pless Enter your ID");
+
+            int ID;
+
+            ID = Convert.ToInt32(Console.ReadLine());
+
+            if (ID == 108)
+            {
+                Console.WriteLine("good");
+            }else
+            {
+                Console.WriteLine("You must be out now ->");
+
+            }
+
+            Console.WriteLine("Pless Enter any number");
+
+            int number;
+            number = Convert.ToInt32(Console.ReadLine());
+
+            if (number >= 10)
+            {
+                Console.WriteLine("Ok");
+            }
+            else
+            {
+                Console.WriteLine("Sorry");
+            }
+
+        }
+
+    }
+}
