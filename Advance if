@@ -1,0 +1,39 @@
+using System;
+
+namespace test
+{
+    class MainClass
+    {
+
+        public static void Main(string[] args)
+        {
+
+
+            string name;
+            int pass;
+
+
+            Console.Write("Enter Your Name :");
+            name = Console.ReadLine();
+
+            if (name == "Abdulwahab")
+            {
+                Console.Write("Enter Your Password :");
+                pass = Convert.ToInt32(Console.ReadLine());
+                if (pass == 123)
+                {
+                    Console.WriteLine("Wlcome" + " " + name);
+                }
+                else
+                {
+                    Console.WriteLine("try agin");
+
+                }
+
+
+            }
+
+        }
+
+    }
+}
