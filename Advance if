@@ -9,20 +9,20 @@ namespace test
         {
 
 
-            string name;
+            string name1;
             int pass;
 
 
             Console.Write("Enter Your Name :");
-            name = Console.ReadLine();
+            name1 = Console.ReadLine();
 
-            if (name == "Abdulwahab")
+            if (name1 == "Abdulwahab")
             {
                 Console.Write("Enter Your Password :");
                 pass = Convert.ToInt32(Console.ReadLine());
                 if (pass == 123)
                 {
-                    Console.WriteLine("Wlcome" + " " + name);
+                    Console.WriteLine("Wlcome" + " " + name1);
                 }
                 else
                 {
@@ -32,6 +32,28 @@ namespace test
 
 
             }
+
+            Console.WriteLine("Enter Your Second Name :");
+
+            string name2;
+            int pass2;
+
+
+            name2 = Console.ReadLine();
+            pass2 = Convert.ToInt32(Console.ReadLine());
+
+            if ((name2 == "Abdullah") && (pass2 == 123))
+            {
+
+                Console.WriteLine("Welcome");
+            }
+            else
+            {
+                Console.WriteLine("Try Agin");
+            }
+                    
+
+            
 
         }
 
