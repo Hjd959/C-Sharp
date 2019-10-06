@@ -82,4 +82,11 @@ namespace math
             return (linea * 3);
         }
     }
+    
+    // تقدر تعطيه براميتر وتعطي القيمه اثناء الاستدعاء
+    public class call(int x)
+    {
+    return(linea * x);
+    }
+    
 }
