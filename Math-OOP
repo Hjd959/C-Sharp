@@ -1,0 +1,85 @@
+using System;
+
+namespace math
+{
+    class MainClass
+    {
+        public static void Main(string[] args)
+        {
+            Console.WriteLine("Hello World!");
+
+
+            // n تم استدعاء الكلاس واعطائه قيمه 
+            squre mysqure = new squre();
+            mysqure.linea = 17;
+
+
+            // n تم استدعاء الكلاس واعطائه قيمه 
+            angle myangle = new angle();
+            myangle.linea = 20;
+
+
+
+
+
+            Console.WriteLine("squre : " + mysqure.area());
+            Console.WriteLine("squre : " + mysqure.length());
+
+
+            Console.WriteLine("angle : " + myangle.area());
+            Console.WriteLine("angle : " + myangle.length());
+
+
+
+        }
+    }
+
+
+
+
+
+
+
+
+
+    // n كلاس جديد تم انشائه وفيه المتغير والمثود 
+
+    public class squre
+    {
+        public int linea
+        {
+            get;
+            set;
+        }
+        public int area()
+        {
+            return (linea * linea);
+        }
+
+        public int length()
+        {
+            return (4 * linea);
+        }
+    }
+
+
+    // n كلاس جديد تم انشائه وفيه المتغير والمثود 
+
+    public class angle
+    {
+        public int linea
+        {
+            get;
+            set;
+        }
+
+        public int area()
+        {
+            return (linea * linea);
+        }
+        public int length()
+        {
+            return (linea * 3);
+        }
+    }
+}
