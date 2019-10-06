@@ -24,6 +24,8 @@ namespace math
 
             Console.WriteLine("squre : " + mysqure.area());
             Console.WriteLine("squre : " + mysqure.length());
+            // من هنا اعطينا قيمه
+            Console.WriteLine("squre : " + mysqure.call(15));
 
 
             Console.WriteLine("angle : " + myangle.area());
