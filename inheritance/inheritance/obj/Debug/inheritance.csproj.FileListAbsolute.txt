@@ -1,0 +1,6 @@
+C:\Users\engab\Desktop\inheritance\inheritance\obj\Debug\inheritance.csproj.CoreCompileInputs.cache
+C:\Users\engab\Desktop\inheritance\inheritance\bin\Debug\inheritance.exe.config
+C:\Users\engab\Desktop\inheritance\inheritance\bin\Debug\inheritance.exe
+C:\Users\engab\Desktop\inheritance\inheritance\bin\Debug\inheritance.pdb
+C:\Users\engab\Desktop\inheritance\inheritance\obj\Debug\inheritance.exe
+C:\Users\engab\Desktop\inheritance\inheritance\obj\Debug\inheritance.pdb
